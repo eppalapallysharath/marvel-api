@@ -10,9 +10,9 @@ app.use(cors({ origin: "*" }));
 
 // MySQL Connection Setup
 const db = mysql.createConnection({
-  host: "localhost", // Change to your DB host
-  user: "root", // Change to your DB user
-  password: "sharath", // Change to your DB password
+  host: "marvel-database.cpyocs8ck6pe.ap-south-1.rds.amazonaws.com", // Change to your DB host
+  user: "admin", // Change to your DB user
+  password: "sharath123", // Change to your DB password
   database: "marvel-db",
 });
 
