@@ -53,7 +53,7 @@ app.get("/characters", (req, res) => {
   });
 });
 
-// Start Server
+// Start
 const PORT = 3002;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
